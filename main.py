@@ -1,7 +1,7 @@
 import time
 
 def main():
-    timer = 10
+    timer = int(input("Enter the time in seconds: "))
 
     for i in range(timer):
         print(timer)
